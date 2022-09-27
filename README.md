@@ -11,13 +11,12 @@
 
 # Changelogs
 
-### v0.0.54
-- A list of library functions has been added to the "Using Library functions" category
+### v0.0.56 (My Discord bot will be written soon, expect...)
+- Added typescript support, also added sample code to the "Example(s)" category.
+- Keywords have been added.
 
-### v0.0.53
-- Changing the library. Its registration and the responder to your requests for communication with yuudachi.
-- Changing the name of the library. From ghoulnsfw to yuudachi.
-- Bug & Error Fixed
+### v0.0.55
+- A list of library functions has been added to the "Using Library functions" category
 
 # Example(s)
 ### NodeJS:
@@ -55,6 +54,25 @@ async function yourFunctionName() {
 FunctionName();
 ```
 
+### TypeScript:
+```ts
+import yuudachi from 'yuudachi';
+
+ // Get SFW Neko & Lewd Neko Images ! //
+yuudachi.neko().then((imageURL) => {
+  console.log(imageURL);
+})
+yuudachi.lewdNeko().then((imageURL) => {
+  console.log(imageURL);
+})
+
+ // Get a NSFW Images ! //
+yuudachi.nsfw.hentai().then((imageURL) => {
+  console.log(imageURL);
+})
+````
+
+
 ### Discord.js Bot:
 ```js
 const { Client, EmbedBuilder } = require('discord.js');
@@ -87,7 +105,9 @@ client.login(config.token);
 ```
 
 # Using Library functions
-All Functions: sfw: `neko, lewdneko, wallpapers, mobileWallpapers`, nsfw: `ass, bdsm, cum, doujin, femdom, hentai, maid, maids, orgy, panties, nsfwwallpapers, nsfwmobilewallpapers, netorare, gif, blowjob, feet, pussy, uglybastard, uniform, foxgirl, cumslut, glasses, thighs, tentacles, masturbation, school, yuri, zettai-ryouiki, succubus`
+**All Functions:**
+- sfw: `neko, lewdneko, wallpapers, mobileWallpapers`
+- nsfw: `ass, bdsm, cum, doujin, femdom, hentai, maid, maids, orgy, panties, nsfwwallpapers, nsfwmobilewallpapers, netorare, gif, blowjob, feet, pussy, uglybastard, uniform, foxgirl, cumslut, glasses, thighs, tentacles, masturbation, school, yuri, zettai-ryouiki, succubus`
 
 # Support
 [Discord Server](https://discord.gg/EbCccPCfSP)
