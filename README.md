@@ -11,18 +11,16 @@
 
 # Changelogs
 
+### v0.0.54
+- A list of library functions has been added to the "Using Library functions" category
+
 ### v0.0.53
 - Changing the library. Its registration and the responder to your requests for communication with yuudachi.
 - Changing the name of the library. From ghoulnsfw to yuudachi.
 - Bug & Error Fixed
 
-### v0.0.8
-- Added: blowjob,
-- Added: paizuri,
-- Added: yaoi
-
 # Example(s)
-**NodeJS:**
+### NodeJS:
 ```js
 const yuudachi = require('yuudachi');
 
@@ -57,7 +55,7 @@ async function yourFunctionName() {
 FunctionName();
 ```
 
-**Discord.js Bot:**
+### Discord.js Bot:
 ```js
 const { Client, EmbedBuilder } = require('discord.js');
 const yuudachi = require('yuudachi');
@@ -89,7 +87,7 @@ client.login(config.token);
 ```
 
 # Using Library functions
-You can also find out the entire list of library functions. Use the `/helper` command from the Discord bot Yuudachi
+All Functions: sfw: `neko, lewdneko, wallpapers, mobileWallpapers`, nsfw: `ass, bdsm, cum, doujin, femdom, hentai, maid, maids, orgy, panties, nsfwwallpapers, nsfwmobilewallpapers, netorare, gif, blowjob, feet, pussy, uglybastard, uniform, foxgirl, cumslut, glasses, thighs, tentacles, masturbation, school, yuri, zettai-ryouiki, succubus`
 
 # Support
 [Discord Server](https://discord.gg/EbCccPCfSP)
