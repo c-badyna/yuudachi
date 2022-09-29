@@ -54,25 +54,6 @@ async function yourFunctionName() {
 FunctionName();
 ```
 
-### TypeScript:
-```ts
-import yuudachi from 'yuudachi';
-
- // Get SFW Neko & Lewd Neko Images ! //
-yuudachi.neko().then((imageURL) => {
-  console.log(imageURL);
-})
-yuudachi.lewdNeko().then((imageURL) => {
-  console.log(imageURL);
-})
-
- // Get a NSFW Images ! //
-yuudachi.nsfw.hentai().then((imageURL) => {
-  console.log(imageURL);
-})
-````
-
-
 ### Discord.js Bot:
 ```js
 const { Client, EmbedBuilder } = require('discord.js');
