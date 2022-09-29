@@ -33,7 +33,7 @@ yuudachi.lewdNeko().then((imageURL) => {
 
  // Get a NSFW Images ! //
 yuudachi.nsfw.hentai().then((imageURL) => {
-  console.log(imageURL); // help me
+  console.log(imageURL);
 })
 ```
 **or:**
